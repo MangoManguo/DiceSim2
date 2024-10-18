@@ -1,0 +1,116 @@
+/* html {
+  background-image: url(images/wp11923961.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(55, 29, 97);
+  color: rgb(245, 196, 247);
+  margin: 30px 300px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 50px;
+} 
+
+button {
+  border: 5px solid rgb(155, 72, 148);
+  background: rgb(255, 153, 241);
+  padding: 10px 20px;
+  caret-color: black;
+}*/
+
+html {
+  background: purple;
+  font-family: monospace;
+}
+
+body {
+  background-color: #6260d2;
+  width: 750px;
+  height: auto;
+  color: black;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+select {
+  padding: 15px 20px;
+  font-family: monospace;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+input {
+  width: 50px;
+  height: 50px;
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  border: 2px solid purple;
+  background: purple;
+  color: white;
+  font-family: monospace;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 35px;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: white;
+  color: purple;
+  transition-duration: 0.7s;
+}
+
+#diceImgs {
+  border: 2px solid purple;
+  background-color: black;
+  margin: 30px 100px;
+  padding: 30px 15px;
+  height: fit-content;
+}
+
+#dice1,
+#dice3,
+#dice5 {
+  margin-right: 50px;
+}
+
+.diceImg {
+  transform: rotate(0deg);
+}
+
+#rollHistory {
+  border: 2px solid purple;
+  margin: 40px 100px;
+  padding: 20px 30px;
+}
+
+span {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  text-align: center;
+  display: inline-block;
+}
